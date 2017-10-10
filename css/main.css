@@ -34,7 +34,6 @@ html {
   left: 13em;
   top: 30%;
   position: fixed;
-  z-index: 10;
 }
 
 .polaroid:last-child {
@@ -49,6 +48,7 @@ html {
 
 .polaroid:nth-child(2):hover {
   transform: scale(1.1, 1.1);
+  z-index: 10;
 }
 
 .polaroid:last-child:hover {
