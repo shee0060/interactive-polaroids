@@ -17,6 +17,7 @@ html {
 .polaroid > img {
   display: block;
   width: 100%;
+  position: relative;
 }
 
 .polaroid > figcaption {
@@ -25,23 +26,21 @@ html {
 }
 
 .polaroid:hover {
-
+  transition: all 1s ease-in-out;
+  transform: rotate(30deg);
 }
 
 .polaroid:first-child {
   transform: translate(250px, 300px);
-  left: 30%;
-  top: 20%;
+  position: absolute;
 }
 
 .polaroid:nth-child(2) {
-  transform: translate(310px, 300px);
-  left: 40%;
-  top: 30%;
+  transform: translate(310px, 350px);
+  position: absolute;
 }
 
 .polaroid:last-child {
   transform: translate(400px, 300px);
-  left: 50%;
-  top: 20%;
+  position: absolute;
 }
