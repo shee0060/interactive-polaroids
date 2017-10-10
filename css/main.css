@@ -12,7 +12,6 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
-  position: relative;
 }
 
 .polaroid > img {
@@ -26,13 +25,13 @@ html {
 }
 
 .polaroid:first-child {
-  position: absolute;
+  position: fixed;
   transform: translate(250px, 300px);
 }
 
 .polaroid:nth-child(2) {
   transform: translate(310px, 350px);
-  position: absolute;
+  position: fixed;
   z-index: 10;
 }
 
@@ -42,6 +41,13 @@ html {
 }
 
 .polaroid:first-child:hover {
-  transition: all 1s ease-in-out;
-  transform: scale(1.2, 2);
+  transform: scale(1.1, 1.1);
+}
+
+.polaroid:nth-child(2):hover {
+  transform: scale(1.1, 1.1);
+}
+
+.polaroid:last-child:hover {
+  transform: scale(1.1, 1.1);
 }
