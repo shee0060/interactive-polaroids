@@ -23,3 +23,25 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.polaroid:hover {
+
+}
+
+.polaroid:first-child {
+  transform: translate(250px, 300px);
+  left: 30%;
+  top: 20%;
+}
+
+.polaroid:nth-child(2) {
+  transform: translate(310px, 300px);
+  left: 40%;
+  top: 30%;
+}
+
+.polaroid:last-child {
+  transform: translate(400px, 300px);
+  left: 50%;
+  top: 20%;
+}
