@@ -26,18 +26,21 @@ html {
 
 .polaroid:first-child {
   position: fixed;
-  transform: translate(250px, 300px);
+  left: 15em;
+  top: 20%;
 }
 
 .polaroid:nth-child(2) {
-  transform: translate(310px, 350px);
+  left: 13em;
+  top: 30%;
   position: fixed;
   z-index: 10;
 }
 
 .polaroid:last-child {
-  transform: translate(400px, 300px);
-  position: absolute;
+  left: 50%;
+  top: 10em;
+  position: fixed;
 }
 
 .polaroid:first-child:hover {
