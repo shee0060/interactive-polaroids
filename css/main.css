@@ -30,13 +30,13 @@ html {
 
 .polaroid:first-child {
   position: fixed;
-  left: 13em;
-  top: 30%;
-  transform: rotate(-30deg);
+  left: 14em;
+  top: 32%;
+  transform: rotate(-20deg);
 }
 
 .polaroid:nth-child(2) {
-  left: 16em;
+  left: 20em;
   top: 40%;
   z-index: 10;
   position: fixed;
@@ -45,7 +45,7 @@ html {
 
 .polaroid:last-child {
   left: 45%;
-  top: 18em;
+  top: 17em;
   transform: rotate(30deg);
   position: fixed;
 }
