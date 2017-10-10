@@ -32,6 +32,7 @@ html {
   position: fixed;
   left: 13em;
   top: 30%;
+  transform: rotate(-30deg)
 }
 
 .polaroid:nth-child(2) {
@@ -39,29 +40,30 @@ html {
   top: 40%;
   z-index: 10;
   position: fixed;
+  transform: rotate(10deg)
 }
 
 .polaroid:last-child {
   left: 50%;
   top: 18em;
-  transform-origin: rotate(30deg);
+  transform: rotate(30deg);
   position: fixed;
 }
 
 .polaroid:first-child:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1) rotate(0);
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 1);
   z-index: 30;
 }
 
 .polaroid:nth-child(2):hover {
-  transform: scale(1.1, 1.1) ;
+  transform: scale(1.1, 1.1) rotate(0);
   z-index: 10;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 1);
 }
 
 .polaroid:last-child:hover {
-  transform: scale(1.1, 1.1) rotate(0deg);
+  transform: scale(1.1, 1.1) rotate(0);
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 1);
   z-index: 20;
 }
